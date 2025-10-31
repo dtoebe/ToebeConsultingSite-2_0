@@ -11,7 +11,7 @@ banner_slider:
       paginationIcon: TfiComments # themify icon pack : https://react-icons.github.io/react-icons/icons/tfi/
       paginationName: Consultation
       button:
-        enable: false
+        enable: true
         label: More details
         link: /about
 
@@ -79,7 +79,7 @@ about:
 
 ##################################### Skill ##############################################
 our_expertise:
-  enable: true
+  enable: false
   subtitle: Our Skills
   title: Why Choose Us
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum. sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.

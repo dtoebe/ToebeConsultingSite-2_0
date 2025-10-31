@@ -27,11 +27,12 @@ const { blog_folder } = config.settings;
           height={240}
           class="w-full"
           alt={title}
+          style={{ maxHeight: "240px", minHeight: "240px" }}
         />
       </a>
     )
   }
-  <div class="flex">
+  <div class="flex grow">
     {
       date && (
         <div class="flex flex-col flex-wrap justify-center items-center px-6 py-5 border-e border-border">
