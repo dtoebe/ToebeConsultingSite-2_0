@@ -17,7 +17,7 @@ import { markdownify } from "@/lib/utils/textConverter";
           <div class="mb-5 mb-md-0">
             <Logo
               src={config.site.logo_footer}
-              class="inline-block"
+              class="inline-block invert brightness-0"
               footerLogo={true}
             />
             {
@@ -57,7 +57,7 @@ import { markdownify } from "@/lib/utils/textConverter";
         {
           menu.quick_links && menu.quick_links[0] && (
             <div class="lg:col-2 md:col-4 sm:col-4 col-6">
-              <h3 class="h5 text-white mb-5" set:html="Services" />
+              <h3 class="h5 text-white mb-5" set:html="Pages" />
               <ul class="flex flex-col gap-4">
                 {menu.quick_links.map((menu) => (
                   <li>
@@ -93,7 +93,7 @@ import { markdownify } from "@/lib/utils/textConverter";
                   <p
                     class="text-white mb-6 text-sm"
                     set:html={markdownify(
-                      config.subscription_in_footer.description
+                      config.subscription_in_footer.description,
                     )}
                   />
                 )}
@@ -152,14 +152,7 @@ import { markdownify } from "@/lib/utils/textConverter";
           config.params.copyright && (
             <div>
               <p class="text-white text-sm">
-                {config.params.copyright} | Theme by
-                <a
-                  target="_blank"
-                  class="underline hover:text-primary"
-                  rel="noopener noreferrer"
-                  href="https://themefisher.com/">
-                  Themefisher
-                </a>
+                {config.params.copyright} | ©{new Date().getFullYear()}
               </p>
             </div>
           )

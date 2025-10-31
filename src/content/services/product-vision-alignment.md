@@ -4,8 +4,8 @@ date: 2025-10-30
 description: Harmonize conflicting product visions and eliminate redundant development. We align your product roadmaps, maximize acquired IP, and prevent customer/talent churn, especially post M&A.
 short_description: Harmonize conflicting product visions and eliminate redundant development. We align your product roadmaps, maximize acquired IP, and prevent customer/talent churn, especially post M&A.
 image: "/images/service/Services-Product-Vision-Alignment.jpg"
-bg_image: "/images/banner/City_Mountains_Dusk.jpg"
-icon: TfiMap # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
+bg_image: "/images/HeroImage-3.jpg"
+icon: TbRoad # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
 ---
 
 ### The Challenge: When Product Visions Collide

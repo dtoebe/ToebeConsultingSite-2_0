@@ -1,6 +1,6 @@
 ---
 title: About Us
-bg_image: "/images/background/page-title.jpg"
+bg_image: "/images/HeroImage-3.jpg"
 description: This is meta description
 meta_title: About
 image: ""

@@ -13,61 +13,42 @@
       "url": "/services"
     },
     {
+      "name": "Playbooks",
+      "url": "/services"
+    },
+    {
       "name": "Blog",
       "url": "/blog"
     },
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "name": "Projects",
-          "url": "/projects"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        }
-      ]
     }
   ],
   "services": [
     {
-      "name": "Business Consulting",
-      "url": "/services/business-consulting"
+      "name": "Cloud Governance",
+      "url": "/services/cloud-governance-and-cost"
     },
     {
-      "name": "Data-Driven Decision",
-      "url": "/services/data-driven-decision-support"
+      "name": "Risk and Compliance",
+      "url": "/services/cyber-risk-and-compliance"
     },
     {
-      "name": "Market strategy",
-      "url": "/services/market-strategy"
+      "name": "Project Delivery",
+      "url": "/services/strategic-project-delivery"
     },
     {
-      "name": "Business Consultation",
-      "url": "/services/strategic-business-consultation"
+      "name": "Product Alignment",
+      "url": "/services/product-vision-alignment"
     },
     {
-      "name": "Marketing Strategies",
-      "url": "/services/targeted-marketing-strategies"
+      "name": "Process Bottlenecks",
+      "url": "/services/process-bottlenecks"
     },
     {
-      "name": "Valuable Idea",
-      "url": "/services/valuable-idea"
+      "name": "Hidden Risk Uncovering",
+      "url": "/services/hidden-risk-uncovering"
     }
   ],
   "quick_links": [
@@ -84,12 +65,12 @@
       "url": "/services"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "Playbooks",
+      "url": "/services"
     },
     {
-      "name": "Team",
-      "url": "/team"
+      "name": "Blog",
+      "url": "/blog"
     },
     {
       "name": "Contact",
@@ -98,19 +79,7 @@
   ],
   "footer": [
     {
-      "name": "Legal",
-      "url": "#"
-    },
-    {
       "name": "Sitemap",
-      "url": "#"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
-    },
-    {
-      "name": "Terms & Conditions",
       "url": "#"
     }
   ]

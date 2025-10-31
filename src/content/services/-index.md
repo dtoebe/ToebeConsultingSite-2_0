@@ -1,13 +1,13 @@
 ---
 title: Services
 date: 2018-07-12T18:19:33+06:00
-bg_image: "/images/background/page-title.jpg"
+bg_image: "/images/HeroImage-2.jpg"
 description: This is meta description
 meta_title: Services
 
 ################## Satisfied clients ###############
 satisfied_clients:
-  enable: true
+  enable: false
   bg_image: "/images/background/clients-bg.jpg"
   subtitle: Our Some
   title: Satisfied Clients
@@ -22,10 +22,10 @@ satisfied_clients:
 
 ################### call to action ##################
 testimonial:
-  enable: true
+  enable: false
   # testimonial content comes from sections testimonial.md file
 ---
 
 ## Our Best Services
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+Engineering Growth: Specialized Solutions for M&A Integration & SaaS/IoT Operational Excellence.

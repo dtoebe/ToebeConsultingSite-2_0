@@ -1,11 +1,11 @@
 ---
-title: Cyber Risk & Compliance
+title: Cyber Risk and Compliance
 date: 2025-10-30
 description: Fortify your digital defenses against breaches, data loss, and regulatory fines. We ensure robust security and compliance, safeguarding your assets and reputation, especially through M&A integrations.
 short_description: Fortify your digital defenses against breaches, data loss, and regulatory fines. We ensure robust security and compliance, safeguarding your assets and reputation, especially through M&A integrations.
 image: "/images/service/Services-Risk-and-Cyber-Compliance.jpg"
-bg_image: "/images/banner/City_Mountains_Dusk.jpg"
-icon: TfiShield # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
+bg_image: "/images/HeroImage.jpg"
+icon: BsFillShieldLockFill # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
 ---
 
 ### The Challenge: Navigating a Minefield of Threats & Regulations

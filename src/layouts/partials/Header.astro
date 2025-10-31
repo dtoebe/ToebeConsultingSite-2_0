@@ -26,7 +26,7 @@ const { pathname } = Astro.url;
     config.params.top_header &&
       (config.params.contact_info.email ||
         config.params.contact_info.phone) && (
-        <div class="bg-dark py-3">
+        <div class="bg-[#0f1946] py-3">
           <div class="container">
             <ul class="text-text-light flex flex-col sm:flex-row justify-center lg:justify-end font-light items-center">
               {config.params.contact_info.email && (
@@ -40,7 +40,7 @@ const { pathname } = Astro.url;
                     set:html={markdownify(
                       "Call Us Now: <span class='underline ml-1'>" +
                         config.params.contact_info.phone +
-                        "</span>"
+                        "</span>",
                     )}
                   />
                 </li>

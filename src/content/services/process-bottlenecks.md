@@ -5,7 +5,7 @@ description: Unblock your critical workflows and accelerate delivery. We identif
 short_description: Unblock your critical workflows and accelerate delivery. We identify and eliminate operational inefficiencies, transforming them into measurable gains and predictable outcomes for your engineering teams.
 image: "/images/service/Services-Process_Bottleneck.jpg"
 bg_image: "/images/banner/City_Mountains_Dusk.jpg"
-icon: TfiRulerAlt2 # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
+icon: TbNoDerivatives # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
 ---
 
 ### When Growth Stalls at the Chokepoint

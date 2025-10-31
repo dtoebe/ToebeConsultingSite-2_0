@@ -1,13 +1,13 @@
 import React from "react";
 import type { IconType } from "react-icons";
-// import * as FaIcons from "react-icons/fa6";
+import * as FaIcons from "react-icons/fa6";
 import * as TfIcons from "react-icons/tfi";
-// import * as BsIcons from "react-icons/bs";
-// import * as FiIcons from "react-icons/fi";
-// import * as Io5Icons from "react-icons/io5";
-// import * as RiIcons from "react-icons/ri";
-// import * as TbIcons from "react-icons/tb";
-// import * as TfiIcons from "react-icons/tfi";
+import * as BsIcons from "react-icons/bs";
+import * as FiIcons from "react-icons/fi";
+import * as Io5Icons from "react-icons/io5";
+import * as RiIcons from "react-icons/ri";
+import * as TbIcons from "react-icons/tb";
+import * as TfiIcons from "react-icons/tfi";
 
 type IconMap = Record<string, IconType>;
 
@@ -18,6 +18,13 @@ interface IDynamicIcon extends React.SVGProps<SVGSVGElement> {
 
 const iconLibraries: { [key: string]: IconMap } = {
   tf: TfIcons,
+  bs: BsIcons,
+  tb: TbIcons,
+  fa6: FaIcons,
+  fi: FiIcons,
+  io5: Io5Icons,
+  ri: RiIcons,
+  tfi: TfiIcons,
 };
 
 const DynamicIcon = ({ icon, ...props }: IDynamicIcon) => {

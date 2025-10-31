@@ -1,9 +1,9 @@
 ---
 enable: true
-title: Biztrox give the smart solution for your business
-bg_image: "/images/background/cta.jpg"
+title: Toebe Consulting Helps You Stop M&A Integration Surprises
+bg_image: "/images/HeroImage-2.jpg"
 button:
   enable: true
-  label: get a quote
+  label: Schedule A Free Call
   link: /contact
 ---

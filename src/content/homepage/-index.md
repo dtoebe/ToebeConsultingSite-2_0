@@ -61,21 +61,21 @@ service:
 ######################################## About #########################################
 about:
   enable: true
-  bg_image: "/images/background/about-bg.jpg"
+  bg_image: "/images/Long-Headshot-2.jpg"
   title: Who We Are?
-  content: Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum.
+  content: As an engineering-led strategic consultancy, we empower SaaS and SaaS-IoT businesses to achieve flawless M&A integration and operational excellence.
   # bullet point
   bulletPoint:
-    - Business Services
-    - Audit & Assurance
-    - IT Control Solutions
-    - Business Services
-    - Audit & Assurance
-    - IT Control Solutions
+    - M&A Integration
+    - SaaS/IoT Focus
+    - Engineering Leadership
+    - Data Driven Insights
+    - Operational Clarity
+    - Flawless Execution
   button:
     enable: true
-    label: Explore More
-    link: /about
+    label: Explore Our Services
+    link: /services
 
 ##################################### Skill ##############################################
 our_expertise:
@@ -144,8 +144,8 @@ call_to_action:
 ########################################## blog ####################################
 blog:
   enable: true
-  title: Company News
-  subtitle: Latest News
+  title: Our Latest Blog Posts
+  subtitle: ""
   # blog item comes from content/blog folder
 
 ################################ clints logo slider ################################

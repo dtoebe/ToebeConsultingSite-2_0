@@ -4,8 +4,8 @@ date: 2025-10-30
 description: Navigate complex M&A integrations and critical infrastructure transitions with precision. We ensure your high-stakes initiatives are delivered flawlessly, on time, and on budget, turning strategy into tangible results.
 short_description: Navigate complex M&A integrations and critical infrastructure transitions with precision. We ensure your high-stakes initiatives are delivered flawlessly, on time, and on budget, turning strategy into tangible results.
 image: "/images/service/Services-Strategic-Project-Delivery.jpg"
-bg_image: "/images/banner/City_Mountains_Dusk.jpg"
-icon: TfiTarget # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
+bg_image: "/images/HeroImage-2.jpg"
+icon: TbTargetArrow # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
 ---
 
 ### The Challenge: When Strategy Meets Reality's Hurdles

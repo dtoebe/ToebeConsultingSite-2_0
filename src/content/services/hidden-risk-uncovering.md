@@ -4,8 +4,8 @@ date: 2025-10-30
 description: Uncover the 'unknown unknowns' that threaten your M&A integration and strategic initiatives. We identify hidden technical debt, security vulnerabilities, and critical knowledge gaps before they derail your success.
 short_description: Uncover the 'unknown unknowns' that threaten your M&A integration and strategic initiatives. We identify hidden technical debt, security vulnerabilities, and critical knowledge gaps before they derail your success.
 image: "/images/service/Services-Hidden-Risk-Uncovery.jpg"
-bg_image: "/images/banner/City_Mountains_Dusk.jpg"
-icon: TfiKey # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
+bg_image: "/images/HeroImage.jpg"
+icon: RiEyeOffLine # themify icon pack: https://react-icons.github.io/react-icons/icons/tfi/
 ---
 
 ### The Challenge: The Silent Saboteurs of Progress

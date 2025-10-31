@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Biztrox Astro",
+    "title": "Toebe Consulting LLC",
     "base_url": "https://toebeconsulting.com",
     "base_path": "/",
     "trailing_slash": false,
@@ -11,7 +11,7 @@
     "logo_footer": "/images/toebeconsulting-logo-full.png",
     "logo_footer_width": "200",
     "logo_footer_height": "100",
-    "logo_text": "Toebe Consulting"
+    "logo_text": "Toebe Consulting LLC"
   },
   "settings": {
     "pagination": 6,
@@ -22,7 +22,7 @@
     "preloder": true,
     "contact_form_action": "#",
     "footer_description": "Strategic consultant combining engineering leadership experience with systematic problem-solving to tackle complex operational challenges.",
-    "copyright": "Copyright Toebe Consulting",
+    "copyright": "Copyright Toebe Consulting LLC",
     "contact_info": {
       "email": "daniel.toebe@toebeconsulting.com",
       "phone": "+1.719.203.9252"
@@ -59,7 +59,7 @@
     "form_action": "#"
   },
   "metadata": {
-    "meta_author": "Toebe Consulting",
+    "meta_author": "Toebe Consulting LLC",
     "meta_image": "/images/toebeconsulting-logo-full.png",
     "meta_description": "Strategic consultant combining engineering leadership experience with systematic problem-solving to tackle complex operational challenges."
   }
