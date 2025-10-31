@@ -1,32 +1,32 @@
 ---
 enable: true
-subtitle: Our Skills
+subtitle: "<b>The Toebe Consulting Advantage:</b> Engineered for Your Success"
 title: Why Choose Us
-content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint ocaecat cupidatat non proident sunt culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnisiste natus error sit voluptatem accusantium.doloremque ladantium totam rem aperieaque ipsa quae ab illo inventore.veritatis. et quasi architecto beatae vitae dicta sunt explicabo.
+content: Choosing the right partner for high-stakes M&A integration and complex operational challenges is paramount. Toebe Consulting stands apart by combining deep engineering leadership with a systematic, data-driven approach. We don't offer generic advice; we embed ourselves to uncover 'unknown unknowns,' streamline critical processes, and ensure your strategic initiatives are executed flawlessly. Our commitment is to deliver measurable impact, transforming your operational friction into powerful growth engines and safeguarding your investments
 
-funfacts:
-  - icon: TfiServer # themify icon pack : https://react-icons.github.io/react-icons/icons/tfi/
-    title: Projects Done
-    count: 230
+# funfacts:
+#   - icon: TfiServer # themify icon pack : https://react-icons.github.io/react-icons/icons/tfi/
+#     title: Projects Done
+#     count: 230
 
-  - icon: TfiFaceSmile # themify icon pack : https://react-icons.github.io/react-icons/icons/tfi/
-    title: Satisfied Clients
-    count: 789
+#   - icon: TfiFaceSmile # themify icon pack : https://react-icons.github.io/react-icons/icons/tfi/
+#     title: Satisfied Clients
+#     count: 789
 
-  - icon: TfiThumbUp # themify icon pack : https://react-icons.github.io/react-icons/icons/tfi/
-    title: Cup Of Coffee
-    count: 580
+#   - icon: TfiThumbUp # themify icon pack : https://react-icons.github.io/react-icons/icons/tfi/
+#     title: Cup Of Coffee
+#     count: 580
 
 progressbar:
-  - title: Branding
-    progress: 85%
+  - title: M&A Integration Strategy
+    progress: 95%
 
-  - title: Consulting
-    progress: 90%
+  - title: Operational Efficiency
+    progress: 92%
 
-  - title: Business
-    progress: 75%
+  - title: Strategic Project Execution 
+    progress: 94%
 
-  - title: Promotion
+  - title: Cyber Risk & Compliance
     progress: 90%
 ---
