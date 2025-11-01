@@ -7,6 +7,7 @@ import {
   pages,
   pricing,
   projects,
+  playbooks,
   services,
   team,
 } from "./types/pages.collections";
@@ -28,6 +29,7 @@ export const collections = {
   pages,
   pricing,
   projects,
+  playbooks,
   services,
   team,
 

@@ -143,6 +143,14 @@ export const homepage = defineCollection({
       })
       .optional(),
 
+    playbook: z
+      .object({
+        enable: z.boolean().default(true),
+        title: z.string(),
+        subtitle: z.string(),
+      })
+      .optional(),
+
     service: z
       .object({
         enable: z.boolean().default(true),
@@ -310,6 +318,44 @@ export const projects = defineCollection({
           data: z.string(),
         }),
       )
+      .optional(),
+  }),
+});
+
+export const playbooks = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/playbooks" }),
+  schema: z.object({
+    title: z.string(),
+    date: z.date(),
+    bg_image: z.string().optional(),
+    description: z.string().optional(),
+    meta_title: z.string().optional(),
+    short_description: z.string().optional(),
+    image: z.string().optional(),
+    icon: z.string().optional(),
+    brochure: z.string().optional(),
+    regular_day: z.string().optional(),
+    regular_time: z.string().optional(),
+    half_day: z.string().optional(),
+    half_time: z.string().optional(),
+    off_day: z.string().optional(),
+
+    satisfied_clients: z
+      .object({
+        enable: z.boolean().default(true),
+        bg_image: z.string().optional(),
+        subtitle: z.string(),
+        title: z.string(),
+        content: z.string(),
+        logo: z.array(z.string()),
+      })
+      .optional(),
+
+    testimonial: z
+      .object({
+        enable: z.boolean().default(true),
+        content_from_file: z.string().optional(),
+      })
       .optional(),
   }),
 });

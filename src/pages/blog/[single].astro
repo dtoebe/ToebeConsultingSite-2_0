@@ -6,6 +6,7 @@ import { getAllTaxonomy, getTaxonomy } from "@/lib/taxonomyParser.astro";
 import { sortByDate } from "@/lib/utils/sortFunctions";
 import PageHeader from "@/partials/PageHeader.astro";
 import PostSidebar from "@/partials/PostSidebar.astro";
+import { Disqus } from "astro-disqus";
 
 export async function getStaticPaths() {
   const BLOG_FOLDER = "blog";
@@ -44,8 +45,8 @@ const sortedPosts = sortByDate(posts);
           <div class="section max-lg:pb-0">
             <PostSingle post={post} />
           </div>
+          <Disqus embed="https://toebe-consulting.disqus.com/embed.js" />
         </div>
-
         <!-- sidebar -->
         <PostSidebar
           allCategories={allCategories}

@@ -4,31 +4,32 @@ import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 import ServiceSidebar from "@/partials/ServiceSidebar.astro";
+import PlaybookSidebar from "@/partials/PlaybookSidebar.astro";
 import { render, type CollectionEntry } from "astro:content";
 
 type Props = {
-  service: CollectionEntry<"services">;
+  service: CollectionEntry<"playbooks">;
 };
 
-const COLLECTION_FOLDER = "services";
+const COLLECTION_FOLDER = "playbooks";
 export async function getStaticPaths() {
-  const COLLECTION_FOLDER = "services";
-  const servicesCollection = await getSinglePage(COLLECTION_FOLDER);
+  const COLLECTION_FOLDER = "playbooks";
+  const playbooksCollection = await getSinglePage(COLLECTION_FOLDER);
 
-  const paths = servicesCollection.map((service) => ({
+  const paths = playbooksCollection.map((playbook) => ({
     params: {
-      single: service.id,
+      single: playbook.id,
     },
-    props: { service },
+    props: { playbook: playbook },
   }));
   return paths;
 }
 
-const { service } = Astro.props;
-const { title, meta_title, description, image, bg_image } = service.data;
+const { playbook: playbook } = Astro.props;
+const { title, meta_title, description, image, bg_image } = playbook.data;
 
-const { Content } = await render(service);
-const servicesCollection = await getSinglePage(COLLECTION_FOLDER);
+const { Content } = await render(playbook);
+const playbooksCollection = await getSinglePage(COLLECTION_FOLDER);
 ---
 
 <Base
@@ -41,9 +42,9 @@ const servicesCollection = await getSinglePage(COLLECTION_FOLDER);
   <section class="section">
     <div class="container">
       <div class="row gy-4">
-        <ServiceSidebar
-          content={service}
-          playbooksCollection={servicesCollection}
+        <PlaybookSidebar
+          content={playbook}
+          playbooksCollection={playbooksCollection}
         />
         <article class="lg:col-8 lg:order-2 order-1">
           {
@@ -58,7 +59,7 @@ const servicesCollection = await getSinglePage(COLLECTION_FOLDER);
             )
           }
           {
-            service.body && (
+            playbook.body && (
               <div class="content">
                 <Content />
               </div>

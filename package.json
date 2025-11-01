@@ -22,6 +22,7 @@
     "@lucide/astro": "^0.552.0",
     "astro": "^5.4.1",
     "astro-auto-import": "^0.4.4",
+    "astro-disqus": "^1.0.1",
     "astro-font": "^1.0.0",
     "date-fns": "^4.1.0",
     "github-slugger": "^2.0.0",

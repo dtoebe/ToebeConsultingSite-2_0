@@ -5,11 +5,11 @@ import { markdownify, slugify } from "@/lib/utils/textConverter";
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  content: CollectionEntry<"services">;
-  playbooksCollection: CollectionEntry<"services">[];
+  content: CollectionEntry<"playbooks">;
+  playbooksCollection: CollectionEntry<"playbooks">[];
 };
 
-const { content, playbooksCollection: servicesCollection } = Astro.props;
+const { content, playbooksCollection: playbooksCollection } = Astro.props;
 
 const { brochure, regular_day, regular_time, half_day, half_time, off_day } =
   content.data;
@@ -18,18 +18,18 @@ const { brochure, regular_day, regular_time, half_day, half_time, off_day } =
 <aside class="lg:col-4 lg:order-1 order-2">
   <div class="flex flex-col gap-10 lg:gap-14">
     {
-      servicesCollection && (
+      playbooksCollection && (
         <ul class="[&>:not(:last-child)]:border-b [&>:not(:last-child)]:border-border border border-border pl-0 rounded overflow-hidden">
-          {servicesCollection.map((serviceItem) => {
-            if (!serviceItem.data.title) return null;
-            const { title } = serviceItem.data;
+          {playbooksCollection.map((playbookItem) => {
+            if (!playbookItem.data.title) return null;
+            const { title } = playbookItem.data;
 
             return (
               <li>
                 <a
-                  href={`/services/${slugify(title)}`}
+                  href={`/playbooks/${slugify(title)}`}
                   class={`btn hover:btn-primary-dark w-full rounded-none px-6 py-6${
-                    serviceItem.id === content.id ? ` btn-primary-dark` : ""
+                    playbookItem.id === content.id ? ` btn-primary-dark` : ""
                   }`}
                   set:html={markdownify(title)}
                 />
