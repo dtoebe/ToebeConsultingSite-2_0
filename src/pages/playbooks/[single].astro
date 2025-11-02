@@ -3,12 +3,11 @@ import ImageMod from "@/components/ImageMod.astro";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
-import ServiceSidebar from "@/partials/ServiceSidebar.astro";
 import PlaybookSidebar from "@/partials/PlaybookSidebar.astro";
 import { render, type CollectionEntry } from "astro:content";
 
 type Props = {
-  service: CollectionEntry<"playbooks">;
+  playbook: CollectionEntry<"playbooks">;
 };
 
 const COLLECTION_FOLDER = "playbooks";
@@ -25,7 +24,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { playbook: playbook } = Astro.props;
+const { playbook } = Astro.props;
 const { title, meta_title, description, image, bg_image } = playbook.data;
 
 const { Content } = await render(playbook);
@@ -53,7 +52,7 @@ const playbooksCollection = await getSinglePage(COLLECTION_FOLDER);
                 src={image}
                 width={900}
                 height={500}
-                class="w-full mb-8 md:mb-16 rounded-t"
+                class="w-full mb-8 md:mb-16 rounded-t-md"
                 alt="service"
               />
             )
